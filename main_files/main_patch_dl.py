@@ -7,9 +7,9 @@ import json
 import tensorflow as tf
 
 from keras.callbacks import TensorBoard, ModelCheckpoint
-from data_gens.data_generator_v2 import nifti_image_generator
-from data_gens.test_gen_v2 import test_predictor, test_predictor_v2
-from models.sequential_models import build_nn_resnet
+from data_gens.data_generator_patch import nifti_image_generator_patch
+from data_gens.test_gen_v2 import test_predictor_v2
+from models.patch_models import build_sh_patch_resnet
 
 # Critical, for Deep learning determinism
 seed_value = 123
@@ -25,15 +25,15 @@ def main():
                         help='Data List file for training stored in a JSON format')
 
     parser.add_argument('--model_dir', '-m', required=False, type=str,
-                        default=r'D:\Masi_data\SPIE_2020\trained_models',
+                        default=r'D:\Masi_data\SPIE_2020\trained_models_patch_v2',
                         help='model output directory')
 
     parser.add_argument('--script_mode', required=False, type=str,
-                        default=r'test',
+                        default=r'train',
                         help='Can run in two modes "train" or "test". If test then prior weight paths are needed')
 
     parser.add_argument('--prior_weights', required=False, type=str,
-                        default=r'D:\Masi_data\SPIE_2020\trained_models\weights-improvement-17-0.00.hdf5',
+                        default=r' ',
                         help='Weights path for running the script in test mode')
 
     args = parser.parse_args()
@@ -63,16 +63,19 @@ def main():
               }
 
     # Build Model
-    dl_model = build_nn_resnet()
+    dl_model = build_sh_patch_resnet()
 
-    if args.prior_weights:
+    patch_crop = [3, 3, 3]
+
+    # The condition below for checking existence of prior weights is a cheap hack, PLEASE IMPROVE
+    if len(args.prior_weights)>5:
         dl_model.load_weights(args.prior_weights)
 
     if args.script_mode == "train":
 
         # Generators
-        trainGen = nifti_image_generator(tr_data, bs=5000)
-        validGen = nifti_image_generator(val_data, bs=5000)
+        trainGen = nifti_image_generator_patch(tr_data, bs=1000, patch_size=patch_crop)
+        validGen = nifti_image_generator_patch(val_data, bs=1000, patch_size=patch_crop)
 
         # Callbacks for Tensorboard, Saving model with checkpointing
         tensor_board = TensorBoard(log_dir=model_base_path,)
@@ -90,7 +93,7 @@ def main():
                                validation_steps=100,
                                epochs=20,
                                verbose=1,
-                               callbacks=[tensor_board, checkpoint])
+                               callbacks=callbacks_list)
 
     elif args.script_mode == "test":
 
