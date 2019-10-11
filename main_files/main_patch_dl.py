@@ -8,7 +8,7 @@ import tensorflow as tf
 
 from keras.callbacks import TensorBoard, ModelCheckpoint
 from data_gens.data_generator_patch import nifti_image_generator_patch
-from data_gens.test_gen_v2 import test_predictor_v2
+from data_gens.test_gen_v2 import test_patch_predictor_v2
 from models.patch_models import build_sh_patch_resnet
 
 # Critical, for Deep learning determinism
@@ -29,11 +29,11 @@ def main():
                         help='model output directory')
 
     parser.add_argument('--script_mode', required=False, type=str,
-                        default=r'train',
+                        default=r'test',
                         help='Can run in two modes "train" or "test". If test then prior weight paths are needed')
 
     parser.add_argument('--prior_weights', required=False, type=str,
-                        default=r' ',
+                        default=r'D:\Masi_data\SPIE_2020\trained_models_patch_v2\weights-improvement-20-0.00.hdf5 ',
                         help='Weights path for running the script in test mode')
 
     args = parser.parse_args()
@@ -68,7 +68,7 @@ def main():
     patch_crop = [3, 3, 3]
 
     # The condition below for checking existence of prior weights is a cheap hack, PLEASE IMPROVE
-    if len(args.prior_weights)>5:
+    if len(args.prior_weights) > 5:
         dl_model.load_weights(args.prior_weights)
 
     if args.script_mode == "train":
@@ -98,7 +98,7 @@ def main():
     elif args.script_mode == "test":
 
         # Test Volumes
-        test_predictor_v2(dl_model=dl_model, test_data=test_data, save_path=model_base_path)
+        test_patch_predictor_v2(dl_model=dl_model, test_data=test_data, save_path=model_base_path)
 
 
 if __name__ == '__main__':
