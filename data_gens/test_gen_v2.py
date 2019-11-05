@@ -208,7 +208,8 @@ def test_fracvol_patch_predictor_with_acc_v2(dl_model, test_data, save_path):
 
         # Load Nifti Volumes of Input, Output and Mask
         input_vol = load_nifty(each_vol['input_image'], data_type='float32')
-        output_vol = load_nifty(each_vol['output_image'], data_type='float32')
+        # TODO Commenting, output vol as the code is just for predicting new input data
+        #output_vol = load_nifty(each_vol['output_image'], data_type='float32')
         mask_vol = load_nifty(each_vol['mask'], data_type='float32')
 
         # Convert mask_vol to int to save space
@@ -264,6 +265,7 @@ def test_fracvol_patch_predictor_with_acc_v2(dl_model, test_data, save_path):
 
         print('Predicted Volume Saved ... \n ')
         #### Calculate ACC
+        '''
         print('Calculating ACC')
 
         acc_vol = np.zeros((vol_dims[0], vol_dims[1], vol_dims[2]))
@@ -277,7 +279,7 @@ def test_fracvol_patch_predictor_with_acc_v2(dl_model, test_data, save_path):
                         acc_vol[x, y, z] = calc_acc_numpy(op_voxel, pred_voxel)
 
         save_nifti_acc(acc_vol, each_vol['output_image'], vol_saver_path)
-
+        '''
 
 def test_patch_predictor_v2(dl_model, test_data, save_path):
 

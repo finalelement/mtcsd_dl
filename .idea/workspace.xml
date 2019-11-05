@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9536c044-8663-4f51-8837-ce6bee023a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_cleaning_stuff/convert_to_gz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning_stuff/create_json_csd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning_stuff/create_json_final.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning_stuff/create_json_init_smt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning_stuff/create_json_smt_final.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_gens/data_generator_smt_patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_gens/data_generator_smt_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_gens/test_gen_smt_patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_gens/test_gen_smt_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_patch_smt_dl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_patch_smt_dl_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_patch_volfrac_dl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_scsd_acc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_simple_smt_dl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/main_simple_volfrac_dl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_files/smt_w_est_csv_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/smt_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_cleaning_stuff/create_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning_stuff/create_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_gens/data_generator_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_gens/data_generator_patch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_gens/data_generator_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_gens/data_generator_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_gens/test_gen_smt_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_gens/test_gen_smt_patch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_gens/test_gen_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_gens/test_gen_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_files/main_patch_dl.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_files/main_patch_dl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/patch_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/patch_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/sequential_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/sequential_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/metrics.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,73 +13,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5775234">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/smt_models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/utils/metrics.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main_files/main_simple_smt_dl.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10">
-                  <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main_files/main_patch_smt_dl.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="530">
-                  <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_simple.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="210" column="30" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_files/main_patch_smt_dl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_patch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="196" column="61" lean-forward="true" selection-start-line="196" selection-start-column="61" selection-end-line="196" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_files/main_patch_volfrac_dl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="101" column="81" selection-start-line="101" selection-start-column="81" selection-end-line="101" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_cleaning_stuff/create_json_final.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_gens/test_gen_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="210" column="87" selection-start-line="210" selection-start-column="87" selection-end-line="210" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,13 +103,11 @@
         <option value="$PROJECT_DIR$/models/patch_models.py" />
         <option value="$PROJECT_DIR$/data_gens/data_generator_patch.py" />
         <option value="$PROJECT_DIR$/data_cleaning_stuff/create_json_csd.py" />
-        <option value="$PROJECT_DIR$/data_gens/test_gen_v2.py" />
         <option value="$PROJECT_DIR$/main_files/main_scsd_acc.py" />
         <option value="$PROJECT_DIR$/data_cleaning_stuff/create_json_init_smt.py" />
         <option value="$PROJECT_DIR$/data_gens/data_generator_smt_patch.py" />
         <option value="$PROJECT_DIR$/main_files/main_patch_smt_dl_search.py" />
         <option value="$PROJECT_DIR$/main_files/smt_w_est_csv_reader.py" />
-        <option value="$PROJECT_DIR$/data_gens/test_gen_smt_patch.py" />
         <option value="$PROJECT_DIR$/main_files/main_patch_volfrac_dl.py" />
         <option value="$PROJECT_DIR$/main_files/main_simple_volfrac_dl.py" />
         <option value="$PROJECT_DIR$/data_cleaning_stuff/create_json_smt_final.py" />
@@ -148,6 +117,8 @@
         <option value="$PROJECT_DIR$/models/smt_models.py" />
         <option value="$PROJECT_DIR$/data_gens/test_gen_smt_simple.py" />
         <option value="$PROJECT_DIR$/main_files/main_simple_smt_dl.py" />
+        <option value="$PROJECT_DIR$/data_gens/test_gen_v2.py" />
+        <option value="$PROJECT_DIR$/data_gens/test_gen_smt_patch.py" />
       </list>
     </option>
   </component>
@@ -162,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +170,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,8 +324,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23608904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23608904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -519,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_cleaning_stuff/create_json_final.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/patch_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -545,16 +507,6 @@
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="196" column="4" selection-end-line="365" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,16 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_files/main_patch_volfrac_dl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="101" column="80" selection-start-line="101" selection-start-column="80" selection-end-line="101" selection-end-column="80" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -659,20 +601,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_patch.py">
+    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="313" column="47" selection-end-line="381" />
+        <state relative-caret-position="150">
+          <caret line="210" column="30" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/smt_models.py">
+    <entry file="file://$PROJECT_DIR$/main_files/main_simple_smt_dl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="-140">
+          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,10 +631,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_files/main_simple_smt_dl.py">
+    <entry file="file://$PROJECT_DIR$/models/smt_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="140">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="210" column="87" selection-start-line="210" selection-start-column="87" selection-end-line="210" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_cleaning_stuff/create_json_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_files/main_patch_volfrac_dl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="101" column="81" selection-start-line="101" selection-start-column="81" selection-end-line="101" selection-end-column="81" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -698,18 +670,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_files/main_patch_smt_dl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="426">
+          <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_simple.py">
+    <entry file="file://$PROJECT_DIR$/data_gens/test_gen_smt_patch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="210" column="30" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="196" column="61" lean-forward="true" selection-start-line="196" selection-start-column="61" selection-end-line="196" selection-end-column="61" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

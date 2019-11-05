@@ -209,9 +209,9 @@ def test_smt_patch_predictor(dl_model, test_data, save_path):
         # Load Nifti Volumes of Input, Output and Mask
         input_vol = load_nifty(each_vol['input_image'], data_type='float32')
         mask_vol = load_nifty(each_vol['mask'], data_type='float32')
-        diff_vol = load_nifty(each_vol['output_image_diff'], data_type='float32')
-        trans_vol = load_nifty(each_vol['output_image_trans'], data_type='float32')
-        intra_vol = load_nifty(each_vol['output_image_intra'], data_type='float32')
+        #diff_vol = load_nifty(each_vol['output_image_diff'], data_type='float32')
+        #trans_vol = load_nifty(each_vol['output_image_trans'], data_type='float32')
+        #intra_vol = load_nifty(each_vol['output_image_intra'], data_type='float32')
 
         #input_vol = load_nifty(each_vol['input_image'], data_type='float32')
         #output_vol = load_nifty(each_vol['output_image'], data_type='float32')
@@ -241,9 +241,9 @@ def test_smt_patch_predictor(dl_model, test_data, save_path):
                         #                         )
 
                         tissue_ip_voxel = np.squeeze(input_vol[x - 1:x + 2,
-                                                           y - 1:y + 2,
-                                                           z - 1:z + 2, 45:48]
-                                                 )
+                                                               y - 1:y + 2,
+                                                               z - 1:z + 2, 45:48]
+                                                               )
 
                         #batch_collector[batch_counter, :, :, :, 0] = sh_ip_voxel
                         batch_collector[batch_counter, :, :, :, :] = tissue_ip_voxel
